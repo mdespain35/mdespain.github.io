@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Montserrat");
+
 h1 {
     color: #A2AAAD;
     background-color: #0C2340;
@@ -9,3 +11,8 @@ img {
     float: right;
     z-index: 1;
 }
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+  }
