@@ -6,7 +6,8 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
+    max-width: 960px;
 }
 
 main div {
@@ -15,13 +16,13 @@ main div {
     border: 2px solid #4B92DB;
     margin: 5px;
     border-radius: 20px;
+    display: block;
 }
 
 #banner {
     color: #A2AAAD;
     background-color: #0C2340;
     text-align: center;
-    border-radius: 20px;
 }
 
 h1 {
@@ -44,5 +45,21 @@ h3 {
     border-radius: 20px 20px 0px 0px;
 }
 a {
-    margin-bottom: 10px;
+    margin-left: 2.5%;
 }
+
+img {
+    display: block;
+    width: 95%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #4B92DB;    
+}
+
+p {
+    margin: 2.5%;
+    max-width: 95%;
+    
+}
+

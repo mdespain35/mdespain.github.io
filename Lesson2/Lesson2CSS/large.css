@@ -1,0 +1,6 @@
+@media (min-width: 64em) {
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
