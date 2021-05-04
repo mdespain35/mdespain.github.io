@@ -12,7 +12,6 @@ h1 {
 img {
     max-width: 175px;
     max-height: 350px;
-    float: right;
     z-index: 1;
     margin-top: -80px;
     margin-left: -20px;
