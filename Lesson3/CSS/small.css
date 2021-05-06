@@ -4,3 +4,11 @@
  * font-family: 'Lato', sans-serif;
  * font-family: 'Titillium Web', sans-serif;
  */
+
+nav {
+    display: block;
+}
+
+ header, main, footer {
+     max-width: 70%;
+ }
