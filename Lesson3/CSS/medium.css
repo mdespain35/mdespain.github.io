@@ -5,10 +5,12 @@
         background-color: #B1740F;
     }
 
-    /*#domain img {
-        display: block;
-        max-width: 90%;
-        margin: 0 auto;
-    }*/
+    #logos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #logos h3 {
+        grid-column: 1 / 4;
+    }
 
 }

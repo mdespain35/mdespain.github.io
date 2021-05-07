@@ -66,8 +66,12 @@ main div {
     justify-self: center;
 }
 
-h1, h3, h4 {
+h1, h3, h4, #titillium {
     font-family: 'Titillium Web', sans-serif;
+}
+
+#titillium, #lato {
+    font-size: 200%;
 }
 
 h3 {
@@ -83,8 +87,30 @@ p {
 #domain img {
     max-width: 90%;
     margin: 0 auto;
+    margin-bottom: 5px;
 }
 
 #update {
     color: #CEFF1A;
+}
+
+#logos {
+    display: grid;
+    grid-template-columns: 1fr; 
+}
+
+#logos img {
+    max-width: 60%;
+    justify-self: center;
+}
+
+#palette {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#palette p {
+    padding: 1.5em;
+    /*align-self: center;*/
+    border: 4px solid black;
 }
