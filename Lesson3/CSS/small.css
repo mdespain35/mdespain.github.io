@@ -5,10 +5,86 @@
  * font-family: 'Titillium Web', sans-serif;
  */
 
-nav {
-    display: block;
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #EBEBEB; 
+    display:block;
+    background-color: #B1740F;
+    margin: 2px;
+}
+
+nav { 
+    text-align: center;
+    background-color: #52489C;
 }
 
  header, main, footer {
-     max-width: 70%;
+     max-width: 1000px;
+     margin: 0 auto;
  }
+ body {
+     background-color: #59C3C3;
+ }
+
+ header, footer {
+     background-color: #52489C;
+     color: #EBEBEB;
+     padding-top: 20px;
+ }
+ header {
+     border-radius: 10px 10px 0 0;
+ }
+
+ footer {
+     text-align: center;
+     padding-bottom: 10px;
+     border-radius: 0 0 10px 10px;
+ }
+
+ footer a {
+     color: #B1740F;
+ }
+
+main {
+    background-color: #EBEBEB;
+}
+
+main div {
+    border: 1px solid darkgray;
+    text-align: center;
+}
+ 
+
+#title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#title h1 {
+    align-self: center;
+    justify-self: center;
+}
+
+h1, h3, h4 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h3 {
+    padding: 10px;
+    color: #52489C;
+    font-size: 120%;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+#domain img {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#update {
+    color: #CEFF1A;
+}
