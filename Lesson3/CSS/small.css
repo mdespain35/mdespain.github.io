@@ -8,7 +8,7 @@
 nav a {
     padding: 10px;
     text-decoration: none;
-    color: #EBEBEB; 
+    color: #59C3C3; 
     display:block;
     background-color: #B1740F;
     margin: 2px;
@@ -106,11 +106,58 @@ p {
 
 #palette {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1fr 1fr;
 }
 
 #palette p {
     padding: 1.5em;
     /*align-self: center;*/
     border: 4px solid black;
+}
+
+#palette p:nth-of-type(6) {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #59C3C3;
+}
+
+#palette p:nth-of-type(7) {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #52489C;
+    color: #EBEBEB;
+}
+
+#palette p:nth-of-type(8) {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#palette p:nth-of-type(9) {
+    grid-column: 2;
+    grid-row: 4;
+    background-color: #B1740F;
+    color: #EBEBEB;
+}
+
+#palette p:nth-of-type(10) {
+    grid-column: 2;
+    grid-row: 5;
+    background-color: #CEFF1A;
+}
+
+.purple {
+    color: #52489C;
+}
+
+.blue {
+    color: #59C3C3;
+}
+
+.gold {
+    color: #B1740F;
+}
+
+.lime {
+    color: #CEFF1A;
 }
