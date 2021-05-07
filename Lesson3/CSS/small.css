@@ -54,6 +54,15 @@ main div {
     border: 1px solid darkgray;
     text-align: center;
 }
+
+li {
+    text-align: start;
+    max-width: 60%; 
+}
+
+ol, ul {
+    margin-left: 23%;
+}
  
 
 #title {
