@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    background-color: #59C3C3;
 }
 
 header, footer {
@@ -20,16 +20,26 @@ footer a {
     color: #B1740F;
 }
 
-main, footer {
-    max-width: 760px;
+main, footer{
+    max-width: 1000px;
+    width: 70%;
+    margin: 0 auto;
 }
 
-li {
-    list-style: none;
+main {
+    background: #EBEBEB;
 }
 
 nav {
     background-color: #B1740F;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
 }
 
 .navigation li:first-child {
