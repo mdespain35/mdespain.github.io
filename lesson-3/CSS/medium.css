@@ -16,6 +16,7 @@
     #palette {
         grid-template-columns: repeat(5, 1fr);
         max-width: 1000px;
+        margin: auto;
     }
 
     #palette p:nth-of-type(6) {
