@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Montserrat");
+
+h1 {
+    color: #A2AAAD;
+    background-color: #0C2340;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+img {
+    max-width: 175px;
+    max-height: 350px;
+    z-index: 1;
+    margin-top: -80px;
+    margin-left: -20px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 20px #4B92DB;
+}
+
+h3 {
+    border-bottom: 2px solid #4B92DB;
+    max-width: 75%;
+}
+
+a {
+    color: #4B92DB; 
+}
+
+footer {
+    background-color: #0C2340;
+    color: #A2AAAD;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #C8102E;
+}
+
+#content {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: 'Acme', 'Montserrat', sans-serif;
+  }
+
+#portal {
+    margin-left: 20px;
+    color: #54585A;
+}
+
+#update {
+    font-size: 85%;
+    color: #4B92DB;
+    margin-top: 5px;
+}
+
+/*Comment to test pushing repository*/
