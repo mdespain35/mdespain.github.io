@@ -10,6 +10,16 @@ header, footer {
     padding-top: 20px;
 }
 
+header {
+    justify-content: center;
+}
+
+header img {
+    float: left;
+    max-width: 100px;
+    padding-right: 20px;
+}
+
 footer {
     text-align: center;
     padding-bottom: 10px;
@@ -22,7 +32,7 @@ footer a {
 
 main, footer{
     max-width: 1000px;
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -33,12 +43,10 @@ main {
 nav {
     background-color: #B1740F;
     width: 100%;
-    margin: 0 auto;
 }
 
 .navigation {
     list-style: none;
-    text-align: center;
     padding: 0;
 }
 
@@ -50,13 +58,23 @@ nav {
     display: none;
 }
 
+.responsive li {
+    display: block;
+}
+
 .navigation a {
 	display: block;
 	padding: 0.75rem;
-	text-align: left;
+	text-align: center;
 	text-decoration: none;
 	color: #59C3C3;
 	font-weight: 700;
+    font-size: 150%;
+}
+
+.navigation a:hover {
+    background-color: #CEFF1A;
+    color: #52489C;
 }
 
 #update {
