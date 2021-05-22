@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Titillium+Web&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     background-color: #59C3C3;
+    font-family: 'Lato', sans-serif;
 }
 
 header, footer {
@@ -29,6 +32,10 @@ footer a {
 main, footer{
     width: 100%;
     margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
 }
 
 main {
