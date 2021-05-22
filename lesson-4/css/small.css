@@ -10,10 +10,6 @@ header, footer {
     padding-top: 20px;
 }
 
-header {
-    justify-content: center;
-}
-
 header img {
     float: left;
     max-width: 100px;
@@ -31,13 +27,19 @@ footer a {
 }
 
 main, footer{
-    max-width: 1000px;
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
 }
 
 main {
     background: #EBEBEB;
+    text-align: center;
+}
+
+main div {
+    border-top: 2px solid #52489C;
+    padding: 2em;
+    text-align: center;
 }
 
 nav {
@@ -48,6 +50,7 @@ nav {
 .navigation {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .navigation li:first-child {
@@ -75,6 +78,10 @@ nav {
 .navigation a:hover {
     background-color: #CEFF1A;
     color: #52489C;
+}
+
+.navigation a:active {
+    text-decoration: underline;
 }
 
 #update {
