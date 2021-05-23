@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Titillium+Web&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #59C3C3;
+    font-family: 'Lato', sans-serif;
+}
+
+header, footer {
+    background-color: #52489C;
+    color: #EBEBEB;
+    padding-top: 20px;
+}
+
+header img {
+    float: left;
+    max-width: 100px;
+    padding-right: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+footer a {
+    color: #B1740F;
+}
+
+main, footer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+main {
+    background: #EBEBEB;
+    text-align: center;
+}
+
+main div {
+    border-top: 2px solid #52489C;
+    padding: 2em;
+    text-align: center;
+}
+
+nav {
+    background-color: #B1740F;
+    width: 100%;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: #59C3C3;
+	font-weight: 700;
+    font-size: 150%;
+}
+
+.navigation a:hover {
+    background-color: #CEFF1A;
+    color: #52489C;
+}
+
+.navigation a:active {
+    text-decoration: underline;
+}
+
+#update {
+    color: #CEFF1A;
+}
