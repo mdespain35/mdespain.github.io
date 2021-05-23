@@ -4,6 +4,10 @@
         
     }
 
+    .navigation li:first-child {
+        display: none;
+    }
+
     .navigation {
         display: flex;
         justify-content: space-between;
