@@ -69,3 +69,8 @@ switch (date.getMonth()) {
 let todayDate = `${day}, ${dayNum} ${month} ${year}`;
 document.querySelector('#update').innerHTML = todayDate;
 
+let copy = document.querySelector("#copyright").innerHTML;
+let date = new Date();
+let year = date.getFullYear();
+copy = copy.replace("Year", year);
+document.querySelector("#copyright").innerHTML = copy;
