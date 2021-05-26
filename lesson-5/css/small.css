@@ -13,16 +13,29 @@ header, footer {
     padding-top: 20px;
 }
 
+header {
+    height: 125px;
+}
+
 header img {
     float: left;
     max-width: 100px;
     padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+header p {
+    margin-bottom: 0;
 }
 
 footer {
     text-align: center;
     padding-bottom: 10px;
     border-radius: 0 0 10px 10px;
+}
+
+.top-banner {
+    position: relative;
 }
 
 footer a {
@@ -51,7 +64,10 @@ main div {
 
 nav {
     background-color: #B1740F;
-    width: 100%;
+    width: 20%;
+    position: absolute;
+    top: 25px;
+    right: 50px;
 }
 
 .navigation {
@@ -70,6 +86,11 @@ nav {
 
 .responsive li {
     display: block;
+}
+
+.responsive {
+    width: 100%;
+    position: static;
 }
 
 .navigation a {
