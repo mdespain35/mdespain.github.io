@@ -201,3 +201,7 @@ nav {
 #contact li:last-child {
     display: none;
 }
+
+#contact li {
+    list-style: none;
+}
