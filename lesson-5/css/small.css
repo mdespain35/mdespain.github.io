@@ -34,6 +34,7 @@ header p {
 
 footer {
     text-align: center;
+    padding-top: 0;
     padding-bottom: 10px;
     border-radius: 0 0 10px 10px;
 }
@@ -186,4 +187,17 @@ nav {
 #article img  {
     max-width: 90%;
     height: 15em;
+}
+
+#contact h3, #contact ul{
+    text-align: left;
+    margin-left: 1.5em;
+}
+
+#contact img {
+    max-width: 30em;
+}
+
+#contact li:last-child {
+    display: none;
 }
