@@ -51,7 +51,7 @@ main, footer{
     margin: 0 auto;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -150,7 +150,7 @@ nav {
     margin-bottom: .25em;
 }
 
-#weather-summary {
+#weather-summary, #article{
     background-image: radial-gradient(circle, #52489C, #B1740F, #52489C);
     color: #59C3C3;
     padding-bottom: .25em;
@@ -158,4 +158,32 @@ nav {
 
 .sum-data {
     color: #CEFF1A;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+#forecast {
+    background: #B1740F;
+    color: #52489C;
+}
+
+#forecast-imgs {
+    display: none;
+}
+
+#forecast h3 {
+    margin: 0;
+    padding: 2em;
+}
+
+#article h4, #article p{
+    margin: .25em;
+    text-align: left;
+}
+
+#article img  {
+    max-width: 90%;
+    height: 15em;
 }

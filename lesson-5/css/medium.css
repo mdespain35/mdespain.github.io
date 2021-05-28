@@ -40,4 +40,8 @@
         grid-column: 2;
     }
 
+    #article img {
+        float: right;
+    }
+
 }
