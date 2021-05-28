@@ -24,6 +24,10 @@ header img {
     padding-bottom: 5px;
 }
 
+img {
+    max-width: 100%;
+}
+
 header p {
     margin-bottom: 0;
 }
@@ -47,8 +51,16 @@ main, footer{
     margin: 0 auto;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Titillium Web', sans-serif;
+}
+
+h2 {
+    background: #59C3C3;
+    color: #B1740F;
+    margin: 0;
+    padding-top: .83em;
+    padding-bottom: .83em;
 }
 
 main {
@@ -58,7 +70,6 @@ main {
 
 main div {
     border-top: 2px solid #52489C;
-    padding: 2em;
     text-align: center;
 }
 
@@ -122,5 +133,29 @@ nav {
 }
 
 #update {
+    color: #CEFF1A;
+}
+
+#summary {
+    max-width: 100%;
+    border: none;
+}
+
+#summary h3 {
+    text-decoration: underline;
+}
+
+#summary p {
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+
+#weather-summary {
+    background-image: radial-gradient(circle, #52489C, #B1740F, #52489C);
+    color: #59C3C3;
+    padding-bottom: .25em;
+}
+
+.sum-data {
     color: #CEFF1A;
 }
