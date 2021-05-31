@@ -129,10 +129,6 @@ nav {
     color: #52489C;
 }
 
-.navigation a:active {
-    text-decoration: underline;
-}
-
 #update {
     color: #CEFF1A;
 }
@@ -161,7 +157,7 @@ nav {
     color: #CEFF1A;
 }
 
-.active {
+.navigation a.active {
     text-decoration: underline;
 }
 
