@@ -3,6 +3,7 @@ let day = "";
 let dayNum = date.getDate();
 let month = "";
 let year = date.getFullYear();
+const note = document.querySelector(".notification");
 
 switch (date.getDay()) {
     case 0:
@@ -72,3 +73,7 @@ document.querySelector('#update').innerHTML = todayDate;
 let copy = document.querySelector("#copyright").innerHTML;
 copy = copy.replace("Year", year);
 document.querySelector("#copyright").innerHTML = copy;
+
+if (day == "Friday") {
+  note.classList.toggle('friday');
+}
