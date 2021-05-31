@@ -186,7 +186,7 @@ nav {
 
 #article img  {
     max-width: 90%;
-    height: 15em;
+    height: 12em;
 }
 
 #contact h3, #contact ul{
@@ -195,7 +195,7 @@ nav {
 }
 
 #contact img {
-    max-width: 30em;
+    max-width: 80%;
 }
 
 #contact li:last-child {
@@ -204,4 +204,8 @@ nav {
 
 #contact li {
     list-style: none;
+}
+
+#social-media {
+    display: none;
 }

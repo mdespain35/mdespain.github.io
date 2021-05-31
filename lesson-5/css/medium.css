@@ -43,11 +43,34 @@
 
     #article img {
         float: right;
+        margin-right: 2em;
+        margin-top: 1em;
+        margin-left: .5em;
+        display: block;
+        grid-column: 2;
+        grid-row: 1 / 3;
+        align-self: center;
+        justify-self: center;
+    }
+
+    #article {
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 
     #contact {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    #article h4 {
+        grid-column: 1;
+    }
+
+    #article p {
+        text-align: justify;
+        grid-column: 1;
+        padding-left: .5em;
     }
 
     #contact h3 {
@@ -92,6 +115,39 @@
         background-image: radial-gradient(circle, #52489C, #B1740F, #52489C);
         padding-bottom: .25em;
         opacity: 0.85;
+    }
+
+    #forecast {
+        background: #59C3C3;
+        border: none;
+        color: #B1740F;
+        padding: .5em;
+        padding-left: 0;
+    }
+
+    #forecast h3 {
+        padding: 1em;
+    }
+
+    #forecast-imgs {
+        background: #B1740F;
+        border: 1px solid #52489C;
+        padding: .25em;
+        display: inline-flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    #forecast-imgs img {
+        width: 5em;
+    }
+
+    #social-media {
+        display: flex;
+    }
+
+    #social-media  img{
+        max-width: 4em;
     }
 
 }
