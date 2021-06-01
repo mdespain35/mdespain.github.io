@@ -23,7 +23,7 @@
             <ul class="navigation">
                 <li><a class="menu" href="#">Menu</a></li>
                 <li><a href="#">Home</a></li>
-                <li><a class="active" href="preston-5.html">Preston</a></li>
+                <li><a class="active" href="preston-6.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="#">Storm Center</a></li>
@@ -35,7 +35,12 @@
     <main>
         <h2>Preston Idaho</h2>
         <div id="weather-summary">
-            <img src="images/hero-image-preston.jpeg"/>
+            <picture>
+                <source srcset="images/franklin117.jpg" media="(min-width: 78.125em)">
+                <source srcset="images/franklin107.jpg" media="(min-width: 32.5em) and (max-width: 78.124em)">
+                <img src="images/franklin35.jpg" alt="Picture required for lesson 6"/>
+            </picture>
+            
             <div id="summary">
                 <h3>Weather Summary</h3>
                 <p>Currently: <span class="sum-data">Sunny</span></p>
