@@ -4,7 +4,7 @@
     <title>Preston Weather Page</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Initial framework and responsive menu for Preston weather page."/>
+    <meta name="description" content="Preston weather page with optimized hero image and web font loader."/>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -33,7 +33,7 @@
         </nav>
     </div>
     <main>
-        <h2>Preston Idaho</h2>
+        <h2>Preston, Idaho</h2>
         <div id="weather-summary">
             <picture>
                 <source srcset="images/franklin117.jpg" media="(min-width: 78.125em)">
@@ -44,10 +44,11 @@
             <div id="summary">
                 <h3>Weather Summary</h3>
                 <p>Currently: <span class="sum-data">Sunny</span></p>
-                <p>High: <span class="sum-data">76 *F</span></p>
-                <p>Wind Chill: <span class="sum-data">72 *F</span></p>
+                <p>High: <span class="sum-data high">42 *F</span></p>
+                <p>Wind Chill: <span class="sum-data wind-chill"></span></p>
                 <p>Humidity: <span class="sum-data">69%</span></p>
-                <p>Wind Speed: <span class="sum-data">5 mph</span></p>
+                <p>Wind Speed: <span class="sum-data wind-speed">5 mph</span></p>
+                <script src="js/windchill.js"></script>
             </div>
         </div>
         <div id="forecast">
