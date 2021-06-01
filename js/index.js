@@ -5,3 +5,5 @@ copy = copy.replace("Year", year);
 document.querySelector("#copyright").innerHTML = copy;
 
 document.querySelector("#update").innerHTML = `Last Modified: ${document.lastModified}`;
+
+WebFont.load({google: {families: ['Acme', 'Montserrat']}});
