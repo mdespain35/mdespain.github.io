@@ -3,3 +3,7 @@ body {
     grid-template-columns: 1fr;
 }
 
+h1, picture {
+    margin: 0 auto;
+}
+
