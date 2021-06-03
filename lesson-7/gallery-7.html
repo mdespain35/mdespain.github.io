@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+  <head>
+    <title>Gallery</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Gallery page with a bunch of optimized weather images set to lazy load.">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <style>
+        li {
+            list-style: none;
+            margin: .5em;
+            padding: 1em;
+            
+        }
+
+        li:first-child {
+            margin-top: 0;
+        }
+
+        li a {
+            text-decoration: none;
+            text-align: center;
+            color: #59C3C3;
+            font-size: 125%;
+        }
+
+        li:hover {
+            background-color: #CEFF1A;
+        }
+
+        li a:hover {
+            color: #52489C;
+        } 
+
+
+        ul {
+            padding: 0;
+            justify-content: space-around;
+            margin-top: 0;
+        }
+
+        nav {
+            width: 100%;
+            background: #B1740F;
+            color: #59C3C3;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            margin: 0 auto;
+        }
+
+        p {
+            padding: .5em;
+        }
+
+        @media only screen and (min-width: 32.5em) {
+            ul {
+                display: flex;
+                width: 100%;
+            }
+
+            li:first-child {
+            margin-top: .5em;
+
+            }
+
+            main {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            h1 {
+                grid-column: 1 / 3;
+            }
+
+        }
+        @media only screen and (min-width: 72.125em) {
+            main {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            h1 {
+                grid-column: 1 / 4;
+            }
+
+        }
+    </style>
+  </head>
+
+  <body>
+      <header>
+          <nav>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a class="active" href="../lesson-5/preston-5.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+          </nav>
+      </header>
+    <main>
+        <h1>Lazy Loading Demonstration</h1>
+        <picture>
+            <img data-src="images/coastalhurricane.jpeg" src="images/placeholder.jpg" alt="Bird's eye view of a hurricane">
+            <p>Bird's eye view of a hurricane</p>
+        </picture>
+        <picture>
+            <img data-src="images/fog.jpeg" src="images/placeholder.jpg" alt="Morning fog in the forest">
+            <p>Morning fog in the forest</p>
+        </picture>
+        <picture>
+            <img data-src="images/heavyclouds.jpeg" src="images/placeholder.jpg" alt="Heavy clouds over small town">
+            <p>Heavy clouds over a small town</p>
+        </picture>
+        <picture>
+            <img data-src="images/heavyfog.jpeg" src="images/placeholder.jpg" alt="Heavy fog with a tree">
+            <p>Heavy fog in the countryside</p>
+        </picture>
+        <picture>
+            <img data-src="images/lightningstormcoast.jpeg" src="images/placeholder.jpg" alt="Lightning storm off the coast of a city">
+            <p>Lightning storm off the coast of a city</p>
+        </picture>
+        <picture>
+            <img data-src="images/lightningstormland.jpeg" src="images/placeholder.jpg" alt="Lightning storm on country road">
+            <p>Lightning storm on a country road</p>
+        </picture>
+        <picture>
+            <img data-src="images/slightlycloudyday.jpeg" src="images/placeholder.jpg" alt="Slightly cloudy day over the mountains">
+            <p>Light clouds over the mountains</p>
+        </picture>
+        <picture>
+            <img data-src="images/snow.jpeg" src="images/placeholder.jpg" alt="Snowfall on a small road">
+            <p>Snowfall on a small road</p>
+        </picture>
+        <picture>
+            <img data-src="images/tornado.jpeg" src="images/placeholder.jpg" alt="Tornado and lightning storm over a small town">
+            <p>Tornado and lightning storm over a small town</p>
+        </picture>
+    </main>
+    <footer></footer>
+    <script src="js/lazyload.js"></script>
+  </body>
+</html>
