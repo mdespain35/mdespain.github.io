@@ -20,7 +20,7 @@ th, td {
     padding: 0.5em;
 }
 
-tbody th, tfoot, #over {
+tbody th, #over {
     background-color: #628ca6;
 }
 
@@ -38,5 +38,6 @@ tbody tr:nth-child(odd) {
 
 tfoot {
     font-size: 70%;
+    background-color: #7fb9c2;
 }
 
