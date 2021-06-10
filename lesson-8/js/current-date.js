@@ -77,3 +77,7 @@ document.querySelector("#copyright").innerHTML = copy;
 if (day == "Friday") {
   note.classList.toggle('friday');
 }
+
+function adjustRating(rating) {
+  document.querySelector("#ratingvalue").innerHTML = rating;
+}
