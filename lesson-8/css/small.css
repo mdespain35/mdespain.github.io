@@ -158,3 +158,11 @@ nav {
     border: 2px solid #52489C
 }
 
+.sbutton {
+    grid-column: 1 / 3;
+    max-width: 15%;
+    background-color: #59C3C3;
+    margin: 0 auto;
+    padding: .5em;
+}
+
