@@ -89,9 +89,34 @@
                 </datalist>
                 <label for="region">
                     <h4>Storm Region:</h4>
-                    <input type="select" name="" id="">
+                    <select name="region" id="select-region" onchange="selectResponse()">
+                        <option value="" disabled selected >Select a Region...</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label>
+                <label for="danger-level">
+                    <h4>Is it Dangerous?</h4>
+                    <label for="yes">
+                        Yes
+                        <input type="radio" id="yes" value="yes" name="danger-level">
+                    </label>
+                    <label for="maybe">
+                        Maybe
+                        <input type="radio" id="maybe" value="maybe" name="danger-level">
+                    </label>
+                    <label for="no">
+                        No
+                        <input type="radio" id="no" value="no" name="danger-level">
+                    </label>
+                </label>
+                <label for="comments">
+                    <h4>Additonal Comments or Information:</h4>
+                    <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
                 </label>
             </div>
+            <input type="submit" class="sbutton">
         </form>
     </main>
     <footer>
