@@ -145,28 +145,11 @@ p {
 #palette p:nth-of-type(9) {
     grid-column: 2;
     grid-row: 4;
-    background-color: #B1740F;
-    color: #EBEBEB;
+    background-color: #F1B75B;
 }
 
 #palette p:nth-of-type(10) {
     grid-column: 2;
     grid-row: 5;
     background-color: #CEFF1A;
-}
-
-.purple {
-    color: #52489C;
-}
-
-.blue {
-    color: #59C3C3;
-}
-
-.gold {
-    color: #B1740F;
-}
-
-.lime {
-    color: #CEFF1A;
 }
