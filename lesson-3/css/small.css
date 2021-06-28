@@ -8,9 +8,9 @@
 nav a {
     padding: 10px;
     text-decoration: none;
-    color: #59C3C3; 
+    color: #153232; 
     display:block;
-    background-color: #B1740F;
+    background-color: #F1B75B;
     margin: 2px;
 }
 
@@ -43,7 +43,7 @@ nav {
  }
 
  footer a {
-     color: #B1740F;
+     color: #EBEBEB;
  }
 
 main {
