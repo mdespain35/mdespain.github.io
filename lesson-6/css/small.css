@@ -145,14 +145,18 @@ nav {
     margin-bottom: .25em;
 }
 
+#weather-summary {
+    color: #59C3C3;
+}
+
 #weather-summary, #article{
     background-image: radial-gradient(circle, #52489C, #B1740F, #52489C);
-    color: #59C3C3;
     padding-bottom: .25em;
 }
 
 #article {
     background-color: #52489C;
+    color: #F3F7F7;
 }
 
 .sum-data {
