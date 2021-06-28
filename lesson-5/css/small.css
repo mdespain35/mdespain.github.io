@@ -153,6 +153,10 @@ nav {
     padding-bottom: .25em;
 }
 
+#article {
+    background-color: #52489C;
+}
+
 .sum-data {
     color: #CEFF1A;
 }
