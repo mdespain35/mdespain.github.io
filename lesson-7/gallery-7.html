@@ -21,7 +21,7 @@
         li a {
             text-decoration: none;
             text-align: center;
-            color: #59C3C3;
+            color: #153232;
             font-size: 125%;
         }
 
@@ -42,8 +42,8 @@
 
         nav, footer {
             width: 100%;
-            background: #B1740F;
-            color: #59C3C3;
+            background: #F1B75B;
+            color: #153232;
         }
 
         footer {
@@ -75,7 +75,7 @@
             margin: 0;
         }
 
-        picture {
+        div {
             border: 2px solid darkgray;
             margin: 1em;
         }
@@ -113,7 +113,7 @@
                 grid-column: 1 / 4;
             }
 
-            picture:hover {
+            div:hover {
                 box-shadow: 0 0 20px #333;
             }
 
@@ -136,42 +136,60 @@
       </header>
     <main>
         <h1>Weather Gallery</h1>
-        <picture>
-            <img data-src="images/coastalhurricane.jpeg" src="images/placeholder.jpg" alt="Bird's eye view of a hurricane">
+        <div>
+            <picture>
+                <img data-src="images/coastalhurricane.jpeg" src="images/placeholder.jpg" alt="Bird's eye view of a hurricane">
+            </picture>
             <p>Bird's eye view of a hurricane</p>
-        </picture>
-        <picture>
-            <img data-src="images/fog.jpeg" src="images/placeholder.jpg" alt="Morning fog in the forest">
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/fog.jpeg" src="images/placeholder.jpg" alt="Morning fog in the forest">
+            </picture>
             <p>Morning fog in the forest</p>
-        </picture>
-        <picture>
-            <img data-src="images/heavyclouds.jpeg" src="images/placeholder.jpg" alt="Heavy clouds over small town">
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/heavyclouds.jpeg" src="images/placeholder.jpg" alt="Heavy clouds over small town">
+            </picture>
             <p>Heavy clouds over a small town</p>
-        </picture>
-        <picture>
-            <img data-src="images/heavyfog.jpeg" src="images/placeholder.jpg" alt="Heavy fog with a tree">
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/heavyfog.jpeg" src="images/placeholder.jpg" alt="Heavy fog with a tree">
+            </picture>
             <p>Heavy fog in the countryside</p>
-        </picture>
-        <picture>
-            <img data-src="images/lightningstormcoast.jpeg" src="images/placeholder.jpg" alt="Lightning storm off the coast of a city">
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/lightningstormcoast.jpeg" src="images/placeholder.jpg" alt="Lightning storm off the coast of a city">
+            </picture>
             <p>Lightning storm off the coast of a city</p>
-        </picture>
-        <picture>
-            <img data-src="images/lightningstormland.jpeg" src="images/placeholder.jpg" alt="Lightning storm on country road">
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/lightningstormland.jpeg" src="images/placeholder.jpg" alt="Lightning storm on country road">
+            </picture>
             <p>Lightning storm on a country road</p>
-        </picture>
-        <picture>
-            <img data-src="images/slightlycloudyday.jpeg" src="images/placeholder.jpg" alt="Slightly cloudy day over the mountains">
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/slightlycloudyday.jpeg" src="images/placeholder.jpg" alt="Slightly cloudy day over the mountains">
+            </picture>
             <p>Light clouds over the mountains</p>
-        </picture>
-        <picture>
-            <img data-src="images/snow.jpeg" src="images/placeholder.jpg" alt="Snowfall on a small road">
-            <p>Snowfall on a small road</p>
-        </picture>
-        <picture>
-            <img data-src="images/tornado.jpeg" src="images/placeholder.jpg" alt="Tornado and lightning storm over a small town">
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/snow.jpeg" src="images/placeholder.jpg" alt="Snowfall on a small road">      
+            </picture>
+            <p>Snowfall on a small road </p>
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/tornado.jpeg" src="images/placeholder.jpg" alt="Tornado and lightning storm over a small town">
+            </picture>
             <p>Tornado and lightning storm over a small town</p>
-        </picture>
+        </div>
     </main>
     <footer></footer>
     <script src="js/lazyload.js"></script>
