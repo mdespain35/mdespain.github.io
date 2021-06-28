@@ -146,6 +146,7 @@ p {
     grid-column: 2;
     grid-row: 4;
     background-color: #F1B75B;
+    color: black;
 }
 
 #palette p:nth-of-type(10) {
