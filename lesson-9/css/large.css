@@ -24,4 +24,12 @@
     #hero {
         max-height: 10%;
     }
+
+    section:nth-child(even) img:hover {
+        box-shadow: 0 .5em 1.5em #59C3C3;
+    }
+
+    section:nth-child(odd) img:hover {
+        box-shadow: 0 .5em 1.5em #59C3C3;
+    }
 }
