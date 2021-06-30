@@ -47,6 +47,9 @@
 
     #social-media {
         display: flex;
+        grid-column: 2;
+        align-self: center;
+        justify-self: center;
     }
 
     #social-media  img{
@@ -55,14 +58,20 @@
 
     #contact {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 3fr 1fr;
+        justify-content: center;
     }
+
     #contact h3 {
-        grid-column: 2;
+        grid-column: 1;
+        justify-self: center;
+        margin-bottom: 0;
+        margin-left: 0;
     }
 
     #contact ul {
-        grid-column: 2;
+        grid-column: 1;
+        justify-self: center;
     }
 
     #contact li:last-child{
@@ -71,6 +80,31 @@
 
     #contact li {
         padding: 0.5em;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section img {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    section:nth-child(even) img {
+        grid-column: 1;
+        grid-row: 1;
+        margin-left: 1em;
+    }
+
+    section:nth-child(even) div {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .towns div {
+        padding-top: 1.5em;
     }
 
 }

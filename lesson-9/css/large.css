@@ -12,4 +12,12 @@
     section {
         max-width: 100%;
     }
+
+    section {
+        display: block;
+    }
+
+    section:nth-child(even) img {
+        margin-left: 0;
+    }
 }
