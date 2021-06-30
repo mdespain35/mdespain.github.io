@@ -60,7 +60,6 @@ main {
 }
 
 main div {
-    border-top: 2px solid #52489C;
     text-align: center;
 }
 
@@ -173,10 +172,15 @@ section {
     margin: 0 auto;
     padding: 0 1em 1em 1em;
     border: none;
+    color: #52489C
 }
 
 .towns p:nth-child(2) {
     font-style: italic;
     font-size: 80%;
     margin-top: -1em;
+}
+
+section img {
+    border: 1px solid dodgerblue;
 }

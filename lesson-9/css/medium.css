@@ -107,4 +107,12 @@
         padding-top: 1.5em;
     }
 
+    section:nth-child(odd) img:hover {
+        box-shadow: -.5em .5em 1em #59C3C3;
+    }
+
+    section:nth-child(even) img:hover {
+        box-shadow: .5em .5em 1.5em #59C3C3;
+    }
+
 }

@@ -20,4 +20,8 @@
     section:nth-child(even) img {
         margin-left: 0;
     }
+
+    #hero {
+        max-height: 10%;
+    }
 }
