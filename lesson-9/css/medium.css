@@ -41,19 +41,32 @@
         grid-column: 2;
     }
 
-    form {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1em;
-        margin: 1.5em;
-    }
-
     h4 {
         margin-bottom: 5px;
     }
 
-    .contact-info {
-        padding-top: 15%;
+    #social-media {
+        display: flex;
+    }
+
+    #contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #contact h3 {
+        grid-column: 2;
+    }
+
+    #contact ul {
+        grid-column: 2;
+    }
+
+    #contact li:last-child{
+        display: block;
+    }
+
+    #contact li {
+        padding: 0.5em;
     }
 
 }
