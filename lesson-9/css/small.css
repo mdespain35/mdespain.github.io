@@ -42,7 +42,7 @@ footer {
 }
 
 footer a {
-    color: #B1740F;
+    color: #EBEBEB;
 }
 
 main, footer{
@@ -65,7 +65,7 @@ main div {
 }
 
 nav {
-    background-color: #B1740F;
+    background-color: #F1B75B;
     width: 20%;
     position: absolute;
     top: 80px;
@@ -100,7 +100,7 @@ nav {
 	padding: 0.75rem;
 	text-align: center;
 	text-decoration: none;
-	color: #59C3C3;
+	color: #153232;
 	font-weight: 700;
     font-size: 150%;
 }
@@ -110,7 +110,7 @@ nav {
 	padding: 10px;
 	text-align: center;
 	text-decoration: none;
-	color: #59C3C3;
+	color: #153232;
     font-size: 125%;
 }
 
