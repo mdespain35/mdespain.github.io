@@ -181,6 +181,10 @@ section {
     margin-top: -1em;
 }
 
+.towns p {
+    color: #322A5A;
+}
+
 section img {
     border: 1px solid dodgerblue;
 }
