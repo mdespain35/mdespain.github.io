@@ -18,3 +18,33 @@ function getDayName(day) {
           return "Saturday";
       }
 }
+
+fetch(foreURL).then((response) => response.json()).then((jsObject) => {
+    console.log(jsObject);
+    for(let i = 0; i < 5; i++) {
+        let day = parseFloat(jsObject.daily[i].dt) * 1000;
+        let nDay = new Date(day);
+        let card = document.createElement('div');
+        let h4 = document.createElement('h4');
+        let icon = document.createElement('img');
+        let p = document.createElement('p');
+
+        h4.textContent = getDayName(nDay.getDay());
+        card.appendChild(h4);
+
+        const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.daily[i].weather[0].icon + '.png';
+        const desc = jsObject.daily[i].weather[0].description;
+        icon.setAttribute('src', imagesrc);
+        icon.setAttribute('alt', desc);
+        card.appendChild(icon);
+
+        if (jsObject.daily[i].dt > jsObject.daily[i].sunrise && jsObject.daily[i].dt < jsObject.daily[i].sunset) {
+            p.innerHTML = parseFloat(jsObject.daily[i].temp.day).toFixed(0).toString() + " &deg;F";
+        } else {
+            p.innerHTML = parseFloat(jsObject.daily[i].temp.eve).toFixed(0).toString() + " &deg;F";
+        }
+        card.appendChild(p);
+
+        document.getElementById('forecast-imgs').appendChild(card);
+    }
+});
