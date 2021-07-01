@@ -130,13 +130,27 @@
     }
 
     #forecast-imgs {
-        background: #B1740F;
+        background: #F1B75B;
         border: 1px solid #52489C;
         padding: .25em;
         display: inline-flex;
         justify-content: space-around;
         width: 100%;
     }
+
+    #forecast-imgs h4 {
+        padding: 1.25em;
+        background-color: #52489C;
+        color: #EBEBEB;
+        margin-top: 0;
+    }
+
+    #forecast-imgs div {
+        padding-top: 0;
+        border: none;
+    }
+
+
 
     #forecast-imgs img {
         width: 5em;
