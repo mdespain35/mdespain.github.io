@@ -43,20 +43,21 @@
             
             <div id="summary">
                 <h3>Weather Summary</h3>
-                <p>Currently: <span class="sum-data">Sunny</span></p>
-                <p>High: <span class="sum-data high">42 *F</span></p>
-                <p>Wind Chill: <span class="sum-data wind-chill"></span></p>
-                <p>Humidity: <span class="sum-data">69%</span></p>
-                <p>Wind Speed: <span class="sum-data wind-speed">5 mph</span></p>
-                <script src="js/windchill.js"></script>
+                <p>Currently: <span class="sum-data" id="desc"></span></p>
+                <p>High: <span class="sum-data high" id="high"></span></p>
+                <p>Current Temp: <span class="sum-data" id="current"></span></p>
+                <p>Wind Chill: <span class="sum-data wind-chill" id="wind-chill"></span></p>
+                <p>Humidity: <span class="sum-data" id="humid"></span></p>
+                <p>Wind Speed: <span class="sum-data wind-speed" id="wind-speed"></span></p>
+                <script src="js/preston-weather.js"></script>
             </div>
         </div>
         <div id="forecast">
             <h3>Five Day Forecast</h3>
             <div id="forecast-imgs">
-                <img src="images/stormlogo.png" alt="Storm logo"/>
-                <img src="images/stormlogo.png" alt="Storm logo"/>
-                <img src="images/stormlogo.png" alt="Storm logo"/>
+                <img id="day1" src="images/stormlogo.png" alt="Storm logo"/>
+                <img id="day2" src="images/stormlogo.png" alt="Storm logo"/>
+                <img id="day3" src="images/stormlogo.png" alt="Storm logo"/>
                 <img src="images/stormlogo.png" alt="Storm logo"/>
                 <img src="images/stormlogo.png" alt="Storm logo"/>
             </div>
