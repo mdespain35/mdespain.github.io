@@ -3,19 +3,19 @@ const foreURL = "https://api.openweathermap.org/data/2.5/onecall?lat=42.0963&lon
 function getDayName(day) {
     switch (day) {
         case 0:
-          return "Sunday";
+          return "Sun";
         case 1:
-          return "Monday";
+          return "Mon";
         case 2:
-           return "Tuesday";
+           return "Tue";
         case 3:
-          return "Wednesday";
+          return "Wed";
         case 4:
-          return "Thursday";
+          return "Thu";
         case 5:
-          return "Friday";
+          return "Fri";
         case 6:
-          return "Saturday";
+          return "Sat";
       }
 }
 
