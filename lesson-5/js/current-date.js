@@ -49,6 +49,7 @@ switch (date.getMonth()) {
       break;
     case 6:
       month = "July";
+      break;
     case 7:
       month = "August";
       break;
