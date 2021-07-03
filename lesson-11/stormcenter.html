@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+  <head>
+    <title>Storm Center</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Storm center page with form to submit information about a storm."/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="storm-css/small.css">
+    <link rel="stylesheet" href="storm-css/medium.css">
+    <link rel="stylesheet" href="storm-css/large.css">
+  </head>
+
+  <body>
+    <div class="top-banner">
+        <header>
+            <img src="images/stormlogo.png" alt="Main Logo"/>
+            <h1>Meteorology Manifest</h1>
+            <p>Where our forecasts become reality!</p>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a class="menu" href="#">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a  href="preston.html">Preston</a></li>
+                <li><a href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="fish-haven.html">Fish Haven</a></li>
+                <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <script src="js/responsive-menu.js"></script>
+        </nav>
+    </div>
+    <main>
+        <form action="" method="get">
+            <div class="contact-info">
+                <label for="name">
+                    <h4>Name: </h4> 
+                    <input type="text" name="name" pattern="[^[A-Za-z]+$].{5,}" required>
+                </label>
+                <label for="email">
+                    <h4>Email:</h4>
+                    <input type="email" name="email" placeholder="doofmagoo@gmail.com">
+                </label>
+                <label for="phone">
+                    <h4>Phone Number:</h4>
+                    <input type="tel" name="phone" placeholder="800-123-4567" required>
+                </label>
+                <label for="zip">
+                    <h4>Zip Code:</h4>
+                    <input type="number" name="zip" pattern=".{5}" id="zip" required>
+                </label>
+            </div>
+            <div class="storm-info">
+                <label for="storm-date">
+                    <h4>Date of Storm:</h4>
+                    <input type="date" name="storm-date">
+                </label>
+                <label for="storm-type">
+                    <h4>Type of Storm:</h4>
+                    <input type="text" list="storm-type-list" name="storm-type">
+                    <datalist id="storm-type-list">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+                </label>
+                <label for="severity">
+                    <h4>Storm Severity:</h4>
+                    <input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+			        <span id="ratingvalue">5</span>
+		        </label>
+
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+                <label for="region">
+                    <h4>Storm Region:</h4>
+                    <select name="region" id="select-region" onchange="selectResponse()">
+                        <option value="" disabled selected >Select a Region...</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label>
+                <label for="danger-level">
+                    <h4>Is it Dangerous?</h4>
+                    <label for="yes">
+                        Yes
+                        <input type="radio" id="yes" value="yes" name="danger-level">
+                    </label>
+                    <label for="maybe">
+                        Maybe
+                        <input type="radio" id="maybe" value="maybe" name="danger-level">
+                    </label>
+                    <label for="no">
+                        No
+                        <input type="radio" id="no" value="no" name="danger-level">
+                    </label>
+                </label>
+                <label for="comments">
+                    <h4>Additonal Comments or Information:</h4>
+                    <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+                </label>
+            </div>
+            <input type="submit" class="sbutton" formaction="thanks.html">    
+        </form>
+    </main>
+    <footer>
+        <div id="copyright">&copy; Year | Michael De Spain | California | <a href="https://www.byui.edu/online">BYU Online Learning</a></div>
+        <div id="update"></div>
+        <script src="js/current-date.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/web-font-load.js"></script>
+  </body>
+</html>

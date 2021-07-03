@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+  <head>
+    <title>Preston Weather Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Preston weather page with live values for weather summary."/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="town-css/small.css">
+    <link rel="stylesheet" href="town-css/medium.css">
+    <link rel="stylesheet" href="town-css/large.css">
+  </head>
+
+  <body>
+    <div class="top-banner">
+        <header>
+            <img src="images/stormlogo.png" alt="Main Logo"/>
+            <h1>Meteorology Manifest</h1>
+            <p>Where our forecasts become reality!</p>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a class="menu" href="#">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="soda-springs.html">Soda Springs</a></li>
+                <li><a class="active" href="fish-haven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <script src="js/responsive-menu.js"></script>
+        </nav>
+    </div>
+    <main>
+        <h2>Fish Haven, Idaho</h2>
+        <div id="weather-summary">
+            <picture>
+                <img src="images/hero-image-preston.jpeg" alt="Hero Image for Preston page"/>
+            </picture>
+            
+            <div id="summary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span class="sum-data" id="desc"></span></p>
+                <p>High: <span class="sum-data" id="high"></span></p>
+                <p>Current Temp: <span class="sum-data" id="current"></span></p>
+                <p>Wind Chill: <span class="sum-data" id="wind-chill"></span></p>
+                <p>Humidity: <span class="sum-data" id="humid"></span></p>
+                <p>Wind Speed: <span class="sum-data" id="wind-speed"></span></p>
+                <script src="js/preston-weather.js"></script>
+            </div>
+        </div>
+        <div id="forecast">
+            <h3>Five Day Forecast</h3>
+            <div id="forecast-imgs"></div>
+            <script src="js/preston-5df.js"></script>
+        </div>
+        <div id="article">
+            <h4>Titular Article</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <img src="images/snowstorm.jpg" alt="Snow storm over bridge">
+        </div>
+    </main>
+    <footer>
+        <div id="contact">
+            <h3>Contact Information</h3>
+            <ul>
+                <li> 📞(800) 123-4567</li>
+                <li> ✉️ foo@meteorologymanifest.com</li>
+                <li> 📍 1234 Wallaby Way, Preston, ID</li>
+            </ul>
+            <img src="images/prestonidaho.png" alt="Map of Preston Idaho">
+            <div id="social-media">
+                <a href="facebook.com"><img src="images/facebook.png" alt="Facebook Logo"></a>
+                <a href="tiktok.com"><img src="images/tiktok.png" alt="TikTok Logo"></a>
+                <a href="twitter.com"><img src="images/twitter.png" alt="Twitter Logo"></a>
+            </div>
+        </div>
+        <div id="copyright">&copy; Year | Michael De Spain | California | <a href="https://www.byui.edu/online">BYU Online Learning</a></div>
+        <div id="update"></div>
+        <p>Weather information provided by <a href="openweathermap.org">OpenWeatherMap</a></p>
+        <script src="js/current-date.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/web-font-load.js"></script>
+  </body>
+</html>

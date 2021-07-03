@@ -1,0 +1,35 @@
+@media only screen and (min-width: 78.125em) {
+    main, footer {
+        max-width: 1050px;
+    }
+
+    .towns {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+    }
+    
+    section {
+        max-width: 100%;
+    }
+
+    section {
+        display: block;
+    }
+
+    section:nth-child(even) img {
+        margin-left: 0;
+    }
+
+    #hero {
+        max-height: 10%;
+    }
+
+    section:nth-child(even) img:hover {
+        box-shadow: 0 .5em 1.5em #59C3C3;
+    }
+
+    section:nth-child(odd) img:hover {
+        box-shadow: 0 .5em 1.5em #59C3C3;
+    }
+}

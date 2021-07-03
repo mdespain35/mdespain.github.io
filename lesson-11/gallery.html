@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+  <head>
+    <title>Gallery</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Gallery page with a bunch of optimized weather images set to lazy load.">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <style>
+        li {
+            list-style: none;
+            margin: .5em;
+            padding: 1em;
+            
+        }
+
+        li:first-child {
+            margin-top: 0;
+        }
+
+        li a {
+            text-decoration: none;
+            text-align: center;
+            color: #153232;
+            font-size: 125%;
+        }
+
+        li:hover {
+            background-color: #CEFF1A;
+        }
+
+        li a:hover {
+            color: #52489C;
+        } 
+
+
+        ul {
+            padding: 0;
+            justify-content: space-around;
+            margin-top: 0;
+        }
+
+        nav, footer {
+            width: 100%;
+            background: #F1B75B;
+            color: #153232;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 150%;
+            padding: 1em;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+            grid-gap: 2em 2em;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+
+        p {
+            padding: 1.5em;
+            text-align: center;
+            font-size: 125%;
+            border-top: 2px solid darkgray;
+            margin: 0;
+        }
+
+        div {
+            border: 2px solid darkgray;
+            margin: 1em;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        @media only screen and (min-width: 32.5em) {
+            ul {
+                display: flex;
+                width: 100%;
+            }
+
+            li:first-child {
+            margin-top: .5em;
+
+            }
+
+            main {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            h1 {
+                grid-column: 1 / 3;
+            }
+
+        }
+        @media only screen and (min-width: 72.125em) {
+            main {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            h1 {
+                grid-column: 1 / 4;
+            }
+
+            div:hover {
+                box-shadow: 0 0 20px #333;
+            }
+
+        }
+    </style>
+  </head>
+
+  <body>
+      <header>
+          <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="fish-haven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a class="active" href="gallery.html">Gallery</a></li>
+            </ul>
+          </nav>
+      </header>
+    <main>
+        <h1>Weather Gallery</h1>
+        <div>
+            <picture>
+                <img data-src="images/coastalhurricane.jpeg" src="images/placeholder.jpg" alt="Bird's eye view of a hurricane">
+            </picture>
+            <p>Bird's eye view of a hurricane</p>
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/fog.jpeg" src="images/placeholder.jpg" alt="Morning fog in the forest">
+            </picture>
+            <p>Morning fog in the forest</p>
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/heavyclouds.jpeg" src="images/placeholder.jpg" alt="Heavy clouds over small town">
+            </picture>
+            <p>Heavy clouds over a small town</p>
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/heavyfog.jpeg" src="images/placeholder.jpg" alt="Heavy fog with a tree">
+            </picture>
+            <p>Heavy fog in the countryside</p>
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/lightningstormcoast.jpeg" src="images/placeholder.jpg" alt="Lightning storm off the coast of a city">
+            </picture>
+            <p>Lightning storm off the coast of a city</p>
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/lightningstormland.jpeg" src="images/placeholder.jpg" alt="Lightning storm on country road">
+            </picture>
+            <p>Lightning storm on a country road</p>
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/slightlycloudyday.jpeg" src="images/placeholder.jpg" alt="Slightly cloudy day over the mountains">
+            </picture>
+            <p>Light clouds over the mountains</p>
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/snow.jpeg" src="images/placeholder.jpg" alt="Snowfall on a small road">      
+            </picture>
+            <p>Snowfall on a small road </p>
+        </div>
+        <div>
+            <picture>
+                <img data-src="images/tornado.jpeg" src="images/placeholder.jpg" alt="Tornado and lightning storm over a small town">
+            </picture>
+            <p>Tornado and lightning storm over a small town</p>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/lazyload.js"></script>
+    <script src="js/lastvisit.js"></script>
+  </body>
+</html>
