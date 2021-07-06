@@ -20,7 +20,6 @@ function getDayName(day) {
 }
 
 fetch(foreURL).then((response) => response.json()).then((jsObject) => {
-    console.log(jsObject);
     for(let i = 0; i < 5; i++) {
         let day = parseFloat(jsObject.daily[i].dt) * 1000;
         let nDay = new Date(day);

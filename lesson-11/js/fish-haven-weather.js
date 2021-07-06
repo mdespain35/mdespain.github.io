@@ -1,4 +1,4 @@
-const apiURL = "api.openweathermap.org/data/2.5/weather?lat=42.0372&lon=-111.3960&appid=79ada910be24866f994eac62790cdc83&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=42.0372&lon=-111.3960&appid=79ada910be24866f994eac62790cdc83&units=imperial";
 
 fetch(apiURL).then((response) => response.json()).then((jsObject) => {
     document.getElementById('desc').textContent = jsObject.weather[0].main;
