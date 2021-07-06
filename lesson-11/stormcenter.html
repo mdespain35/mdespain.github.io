@@ -32,33 +32,33 @@
         </nav>
     </div>
     <main>
-        <form action="" method="get">
+        <form method="get">
             <div class="contact-info">
+                <h4>Name: </h4> 
                 <label for="name">
-                    <h4>Name: </h4> 
-                    <input type="text" name="name" pattern="[^[A-Za-z]+$].{5,}" required>
+                    <input type="text" name="name" id="name" pattern="[^[A-Za-z]+ [a-zA-Z]$].{5,}" required>
                 </label>
+                <h4>Email:</h4>
                 <label for="email">
-                    <h4>Email:</h4>
-                    <input type="email" name="email" placeholder="doofmagoo@gmail.com">
+                    <input type="email" name="email" id="email" placeholder="doofmagoo@gmail.com">
                 </label>
+                <h4>Phone Number:</h4>
                 <label for="phone">
-                    <h4>Phone Number:</h4>
-                    <input type="tel" name="phone" placeholder="800-123-4567" required>
+                    <input type="tel" name="phone" id="phone" placeholder="800-123-4567" required>
                 </label>
+                <h4>Zip Code:</h4>
                 <label for="zip">
-                    <h4>Zip Code:</h4>
-                    <input type="number" name="zip" pattern=".{5}" id="zip" required>
+                    <input type="number" name="zip" id="zip" required>
                 </label>
             </div>
             <div class="storm-info">
+                <h4>Date of Storm:</h4>
                 <label for="storm-date">
-                    <h4>Date of Storm:</h4>
-                    <input type="date" name="storm-date">
+                    <input type="date" id="storm-date" name="storm-date">
                 </label>
+                <h4>Type of Storm:</h4>
                 <label for="storm-type">
-                    <h4>Type of Storm:</h4>
-                    <input type="text" list="storm-type-list" name="storm-type">
+                    <input type="text" list="storm-type-list" id="storm-type" name="storm-type">
                     <datalist id="storm-type-list">
                         <option value="Flash Flood"></option>
                         <option value="Hail"></option>
@@ -67,8 +67,8 @@
                         <option value="Tornado"></option>
                     </datalist>
                 </label>
+                <h4>Storm Severity:</h4>
                 <label for="severity">
-                    <h4>Storm Severity:</h4>
                     <input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
 			        <span id="ratingvalue">5</span>
 		        </label>
@@ -86,8 +86,8 @@
                     <option value="9">
                     <option value="10">
                 </datalist>
-                <label for="region">
-                    <h4>Storm Region:</h4>
+                <h4>Storm Region:</h4>
+                <label for="select-region">
                     <select name="region" id="select-region" onchange="selectResponse()">
                         <option value="" disabled selected >Select a Region...</option>
                         <option value="Preston">Preston</option>
@@ -95,8 +95,8 @@
                         <option value="Fish Haven">Fish Haven</option>
                     </select>
                 </label>
-                <label for="danger-level">
-                    <h4>Is it Dangerous?</h4>
+                <h4>Is it Dangerous?</h4>
+                <div>
                     <label for="yes">
                         Yes
                         <input type="radio" id="yes" value="yes" name="danger-level">
@@ -109,9 +109,9 @@
                         No
                         <input type="radio" id="no" value="no" name="danger-level">
                     </label>
-                </label>
+                </div>
+                <h4>Additonal Comments or Information:</h4>
                 <label for="comments">
-                    <h4>Additonal Comments or Information:</h4>
                     <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
                 </label>
             </div>
