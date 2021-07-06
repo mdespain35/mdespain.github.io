@@ -136,13 +136,18 @@ nav {
     border: none;
 }
 
-#summary h3 {
+#summary h3, #events h3 {
     text-decoration: underline;
 }
 
 #summary p {
     margin-top: .25em;
     margin-bottom: .25em;
+}
+
+#events p {
+    padding-left: .25em;
+    padding-right: .25em;
 }
 
 #weather-summary {

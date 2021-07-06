@@ -117,6 +117,17 @@
         opacity: 0.85;
     }
 
+    #events {
+        width: 20%;
+        position: absolute;
+        top: 2em;
+        right: 2em;
+        background-image: radial-gradient(circle, #52489C, #B1740F, #52489C);
+        padding-bottom: .25em;
+        opacity: 0.85;
+        border: none;
+    }
+
     #forecast {
         background: #59C3C3;
         border: none;
