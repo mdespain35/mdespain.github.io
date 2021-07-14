@@ -22,7 +22,76 @@
         </nav>
     </div>
     <main>
-
+        <div id="benefits">
+            <ul>
+                <li>Gold - The best</li>
+                <li>Silver - The second best</li>
+                <li>Bronze - Third it is</li>
+                <li>Non-Profit - Alrighty then</li>
+            </ul>
+        </div>
+        <form action="get">
+            <div id="person-info">
+                <h4>First Name:</h4>
+                <label for="fname">
+                    <input type="text" name="fname" id="fname" required>
+                </label>
+                <h4>Last Name:</h4>
+                <label for="lname">
+                    <input type="text" name="lname" id="lname" required>
+                </label>
+                <h4>Title:</h4>
+                <label for="title">
+                    <input type="text" name="title" id="title">
+                </label>
+                <h4>Email:</h4>
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="doofmagoo@gmail.com" required>
+                </label>
+                <h4>Phone:</h4>
+                <label for="phone">
+                    <input type="tel" name="phone" id="phone" placeholder="(800)123-4567">
+                </label>
+            </div>
+            <div id="biz-info">
+                <h4>Business Name:</h4>
+                <label for="biz-name">
+                    <input type="text" name="biz-name" id="biz-name" required>
+                </label>
+                <h4>Business Address:</h4>
+                <label for="biz-address">
+                    <input type="text" name="biz-address" id="biz-address">
+                </label>
+                <h4>Business Website</h4>
+                <label for="biz-site">
+                    <input type="url" name="biz-site" id="biz-site">
+                </label>
+                <h4>Business Description:</h4>
+                <label for="biz-desc">
+                    <textarea name="biz-desc" id="biz-desc" cols="30" rows="10"></textarea>
+                </label>
+                <div>
+                    <h4>Membership Level:</h4>
+                    <label for="non-profit">
+                        Non-Profit
+                        <input type="radio" id="non-profit" value="non-profit" name="membership-level">
+                    </label>
+                    <label for="bronze">
+                        Bronze
+                        <input type="radio" name="membership-level" id="bronze" value="bronze">
+                    </label>
+                    <label for="silver">
+                        Silver
+                        <input type="radio" name="membership-level" id="silver" value="silver">
+                    </label>
+                    <label for="gold">
+                        Gold
+                        <input type="radio" name="membership-level" id="gold" value="gold">
+                    </label>
+                </div>
+            </div>
+            <input type="submit" class="sbutton" formaction="thanks.html"> 
+        </form>
     </main>
     <footer>
         <p>Contact Information</p>
