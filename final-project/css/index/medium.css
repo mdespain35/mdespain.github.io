@@ -122,4 +122,18 @@
         margin-top: 1em;
     }
 
+    /* Footer section */
+
+    footer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    footer img {
+        max-width: 75px;
+    }
+
+    #social {
+        grid-column: 3;
+    }
+
 }

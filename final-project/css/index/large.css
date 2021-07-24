@@ -1,0 +1,51 @@
+@media only screen and (min-width: 78.125em) {
+    /* General Page section*/
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Weather section */
+    #current-weather {
+        grid-column: 3;
+        background-color: #73BFB8;
+    }
+
+    /* Business Spotlight section */
+
+    #business-spotlight {
+        grid-row: 1;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #business-spotlight h2 {
+        grid-column: 1 / 4;
+    }
+
+    #business-spotlight div {
+        max-width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    #business-spotlight div:nth-child(even) a {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    /* About Us section */
+    #about-us {
+        grid-row: 2;
+    }
+
+    /* Join Us section */
+    #join {
+        grid-column: 3;
+        grid-row: 2;
+        background-color: #3DA5D9;
+    }
+
+    #join img {
+        margin-top: 7%;
+        margin-bottom: auto;
+    }
+}
