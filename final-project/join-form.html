@@ -5,7 +5,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Membership application page that also lists benefits of joining for Chamber of Commerce final assignment."/>
-    <link rel="stylesheet" href="../css/normalize.css">  
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/join/small.css">
+    <link rel="stylesheet" href="css/join/medium.css">
+    <link rel="stylesheet" href="css/join/large.css">  
   </head>
 
   <body>
@@ -20,14 +23,35 @@
                 <li><a href="contact-us.html">Contact Us</a></li>
             </ul>
         </nav>
+        <img id="filler" src="images/downtown-trolley-tracks.jpeg" alt="Trolley Tracks Downtown with Skyscrapers.">
     </div>
     <main>
         <div id="benefits">
             <ul>
-                <li>Gold - The best</li>
-                <li>Silver - The second best</li>
-                <li>Bronze - Third it is</li>
-                <li>Non-Profit - Alrighty then</li>
+                <li>
+                    <div>
+                        <h3>- Gold ($1000) -</h3>
+                        <p>Exclusive directory listings, social media posts, sponsorship for exclusive ad posts</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>- Silver ($400) -</h3>
+                        <p>Exclusive directory listings, social media posts, luncheon tickets</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>- Bronze ($200) -</h3>
+                        <p>Business trainings, luncheon tickets</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>- Non-Profit ($100) -</h3>
+                        <p>Business trainings</p>
+                    </div>
+                </li>
             </ul>
         </div>
         <form action="get">
@@ -94,10 +118,15 @@
         </form>
     </main>
     <footer>
-        <p>Contact Information</p>
+        <div>
+            <p>(858) 123-4567</p>
+            <p>foo@sdsweetspots.com</p>
+        </div>
         <a href="attributions.html">Attributions</a>
-        <a href="facebook.com"><img src="images/facebook.png" alt="Facebook Logo"></a>
-        <a href="twitter.com"><img src="images/twitter.png" alt="Twitter Logo"></a>
+        <div id="social">
+            <a href="facebook.com"><img src="images/facebook.png" alt="Facebook Logo"></a>
+            <a href="twitter.com"><img src="images/twitter.png" alt="Twitter Logo"></a>
+        </div>
     </footer>
   </body>
 </html>
