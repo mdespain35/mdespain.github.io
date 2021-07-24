@@ -89,6 +89,7 @@
 main {
     font-family: 'Fira Sans', sans-serif;
     background-color: #FEC601;
+    text-align: center;
 }
 
 h2, h3 {
@@ -117,4 +118,79 @@ h2, h3 {
 
 #business-spotlight div:nth-child(odd) {
     background-color: #3DA5D9;
+}
+
+/* About Us section */
+
+#about-us img {
+    max-width: 100%;
+}
+
+#about-us {
+    border: 2px solid #EA7317;
+}
+
+/* Join Us section */
+
+#join img {
+    max-width: 100%;
+}
+
+#join {
+    position: relative;
+}
+
+#join h3 {
+    position: absolute;
+    top: 24%;
+    color: #EA7317;
+    left: 36%;
+    background-color: #73BFB8;
+    padding: .25em;
+    border-radius: 20px;
+}
+
+#join h3:hover {
+    border: 1px dotted #EA7317;
+    box-shadow: 0 0 10px #FEC601;
+}
+
+/* Upcoming Events section*/
+
+#events li {
+    text-align: left;
+}
+
+#events  {
+    padding-bottom: 1em;
+}
+
+/* Footer section */
+
+footer img {
+    max-width: 50px;
+}
+
+footer {
+    background-color: #EA7317;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer div {
+    padding: .75em;
+}
+
+footer div p:nth-child(0) {
+    margin-top: 0;
+}
+
+#social {
+    grid-column: 1 / 3;
+    margin: 0 auto;
+}
+
+footer a {
+    text-align: center;
+    margin-top: 2.5em;
 }
