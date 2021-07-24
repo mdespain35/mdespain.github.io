@@ -37,6 +37,10 @@
     border-bottom: 3px solid #3DA5D9;
 }
 
+#filler {
+    display: none;
+}
+
 /* Weather Info section */
 
 .current p {
@@ -70,7 +74,7 @@
     margin: 0 auto;
     background-color: #73BFB8;
     bottom: 1em;
-    left: 30%;
+    left: 7em;
     opacity: 0.85;
 }
 

@@ -1,0 +1,125 @@
+@media only screen and (min-width: 32.5em) {
+    
+    /* Header/Navigation section */
+
+    #top-banner {
+        grid-template-columns: 230px 1fr;
+        grid-template-rows: 57.781px 172.219px;
+    }
+
+    #logo {
+        grid-column: 1;
+        grid-row: 1 / 3;
+    }
+
+    .navigation li {
+        display: inline;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav {
+        grid-column: 2;
+    }
+
+    #filler {
+        display: block;
+        grid-column: 2;
+        max-width: 100%;
+        max-height: 25em;
+        width: 100%;
+    }
+
+
+    /* General Page section */
+    main {
+        display: grid;
+        grid-template-columns: 230px 1fr;
+    }
+
+    /* Weather Info section */
+    #current-weather {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #current-weather img {
+        width: 100%;
+        max-height: 20em;
+    }
+
+    #forecast {
+        left: 10em;
+    }
+
+    #forecast div {
+        padding: 1em;
+    }
+
+    /* Business Spotlight section */
+
+    #business-spotlight {
+        grid-column: 1 / 3;
+        grid-row: 2;
+    }
+
+    #business-spotlight div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 85%;
+        margin: 0 auto;
+    }
+
+    #business-spotlight div:nth-child(even) a {
+        grid-column: 2;
+        grid-row: 1 / 3;
+    }
+
+    #business-spotlight div a {
+        align-self: center;
+    }
+
+    #business-spotlight h2 {
+        background-color: #EA7317;
+        color: #EEE;
+        margin: 0;
+        padding-top: 0.83em;
+        padding-bottom: 0.83em;
+        border: 2px dashed #FEC601;
+    }
+
+    #business-spotlight img {
+        max-width: 60%;
+    }
+
+    /* About Us section */
+    #about-us {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    #about-us img {
+        max-height: 20em;
+    }
+
+    /* Join Us section */
+    #join {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    /* Events section */
+    #events {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 125%;
+    }
+
+    #events li {
+        margin-top: 1em;
+    }
+
+}

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Home page for Chamber of Commerce final assignment."/>
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="css/index/small.css">  
+    <link rel="stylesheet" href="css/index/small.css"> 
+    <link rel="stylesheet" href="css/index/medium.css"> 
   </head>
 
   <body>
@@ -21,6 +22,7 @@
                 <li><a href="contact-us.html">Contact Us</a></li>
             </ul>
         </nav>
+        <img id="filler" src="images/downtown-trolley-tracks.jpeg" alt="Trolley Tracks Downtown with Skyscrapers.">
     </div>
     <main>
         <div id="current-weather"></div>
@@ -59,7 +61,13 @@
             <img src="images/guy-working-by-beach.jpeg" alt="Man working by the beach">
         </div>
         <div id="join">
-            <a href="join-form.html"><img src="images/join-us.jpg" alt="Storm Troopers standing on a hill"></a>
+            <a href="join-form.html">
+                <picture>
+                    <source srcset="images/join-us.jpg" media="(min-width: 78.125em)">
+                    <source srcset="images/balboa-park-tower.jpg" media="(min-width: 32.5em) and (max-width: 78.124em)">
+                    <img src="images/join-us.jpg" alt="Storm Troopers standing on a hill">
+                </picture>
+            </a>
             <a href="join-form.html"><h3>Join Us!</h3></a>
         </div>
         <div id="events">
@@ -81,7 +89,7 @@
             <a href="facebook.com"><img src="images/facebook.png" alt="Facebook Logo"></a>
             <a href="twitter.com"><img src="images/twitter.png" alt="Twitter Logo"></a>
         </div>
-        
+
     </footer>
   </body>
 </html>

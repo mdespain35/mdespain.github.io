@@ -16,6 +16,5 @@ fetch(apiURL).then((response) => response.json()).then((jsObject) => {
     weather.appendChild(temp);
     weather.appendChild(humid);
     weather.setAttribute('class', 'current');
-
     document.getElementById("current-weather").appendChild(weather);
 });
