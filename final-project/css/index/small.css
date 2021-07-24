@@ -53,8 +53,34 @@
 }
 
 #current-weather {
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#current-weather img {
+    max-width: 100%;
+}
+
+#forecast {
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(3, 1fr);
     max-width: 85%;
     margin: 0 auto;
+    background-color: #73BFB8;
+    bottom: 1em;
+    left: 30%;
+    opacity: 0.85;
+}
+
+#forecast div {
+    text-align: center;
+}
+
+#forecast h4, #forecast p {
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 
@@ -62,4 +88,33 @@
 
 main {
     font-family: 'Fira Sans', sans-serif;
+    background-color: #FEC601;
+}
+
+h2, h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Business Highlight section */
+
+#business-spotlight {
+    text-align: center;
+}
+
+#business-spotlight div{
+    padding: .5em;
+}
+
+#business-spotlight img {
+    max-width: 95%;
+    background-color: white;
+}
+
+#business-spotlight div:nth-child(even) {
+    background-color: #2364AA;
+    color: #EEE;
+}
+
+#business-spotlight div:nth-child(odd) {
+    background-color: #3DA5D9;
 }
