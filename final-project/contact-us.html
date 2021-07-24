@@ -5,7 +5,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Contact information page for Chamber of Commerce final assignment."/>
-    <link rel="stylesheet" href="../css/normalize.css">  
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/contact-us/small.css">
+    <link rel="stylesheet" href="css/contact-us/medium.css">
+    <link rel="stylesheet" href="css/contact-us/large.css">  
   </head>
 
   <body>
@@ -31,7 +34,8 @@
             <h3>- Address -</h3>
             <p>1465 Grand Ave.<br>San Diego, CA 92109</p>
         </div>
-        <div id="map"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.823618087975!2d-117.24456448437712!3d32.796935780965875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc01c1b73c8ac7%3A0xfe2fad6528cfecd8!2s1465%20Grand%20Ave%2C%20San%20Diego%2C%20CA%2092109!5e0!3m2!1sen!2sus!4v1627166506992!5m2!1sen!2sus" 
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <form action="get">
             <h4>Name: </h4>
             <label for="name">
@@ -45,7 +49,7 @@
             <label for="email">
                 <input type="email" name="email" id="email">
             </label>
-            <h4>Comment/Suggestion</h4>
+            <h4>Comment/Suggestion:</h4>
             <label for="comment">
                 <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
             </label>
@@ -53,6 +57,7 @@
         </form>
 
         <div id="board">
+            <h2>- Board of Directors - </h2>
             <ul>
                 <li>Larry Legendiary</li>
                 <li>Beatrice Boanafaiday</li>
@@ -62,10 +67,15 @@
 
     </main>
     <footer>
-        <p>Contact Information</p>
+        <div>
+            <p>(858) 123-4567</p>
+            <p>foo@sdsweetspots.com</p>
+        </div>
         <a href="attributions.html">Attributions</a>
-        <a href="facebook.com"><img src="images/facebook.png" alt="Facebook Logo"></a>
-        <a href="twitter.com"><img src="images/twitter.png" alt="Twitter Logo"></a>
+        <div id="social">
+            <a href="facebook.com"><img src="images/facebook.png" alt="Facebook Logo"></a>
+            <a href="twitter.com"><img src="images/twitter.png" alt="Twitter Logo"></a>
+        </div>
     </footer>
   </body>
 </html>
