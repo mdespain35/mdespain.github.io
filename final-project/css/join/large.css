@@ -1,0 +1,26 @@
+@media only screen and (min-width: 78.125em) {
+    /* Form section */
+
+    #big {
+        grid-row: 1;
+    }
+
+    #person-info {
+        grid-row: 1;
+    }
+
+    #biz-info {
+        grid-row: 1;
+    }
+
+    .sbutton {
+        grid-column: 2;
+        grid-row: 2;
+        width: 50%;
+        justify-self: center;
+    }
+
+    form {
+        padding-top: 1em;
+    }
+}
