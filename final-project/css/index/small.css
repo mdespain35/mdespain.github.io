@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu&display=swap');
+/* Header/Navigation section */
+#top-banner {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#logo {
+    max-width: 100%;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    background-color: #EA7317; 
+    padding: 0;
+}
+
+.navigation li {
+    padding: 1em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 115%;
+}
+
+.navigation li:hover {
+    border: 1px solid #73BFB8;
+    box-shadow: 0 0 5px #2364AA;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #EEE;
+}
+
+.active {
+    border-bottom: 3px solid #3DA5D9;
+}
+
+/* Weather Info section */
+
+.current p {
+    display: inline;
+    padding: .75em;
+    font-size: 150%;
+}
+
+.current {
+    text-align: center;
+    background-color: #73BFB8;
+    padding-top: .5em;
+    padding-bottom: .5em; 
+}
+
+#current-weather {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+
+/* General Page section */
+
+main {
+    font-family: 'Fira Sans', sans-serif;
+}
