@@ -5,7 +5,7 @@ function lastModified() {
 }
 
 function GetTime() {
-    var modiDate = new Date();
+    var modiDate = new Date(document.lastModified);
     var Seconds
 
     if (modiDate.getSeconds() < 10) {
@@ -14,7 +14,7 @@ function GetTime() {
         Seconds = modiDate.getSeconds();
     }
 
-    var modiDate = new Date();
+    var modiDate = new Date(document.lastModified);
     var CurTime = modiDate.getHours() + ":" + modiDate.getMinutes() + ":" + Seconds
     return CurTime
 }
