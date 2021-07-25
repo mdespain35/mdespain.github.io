@@ -63,20 +63,43 @@ main img {
 }
 
 /* Historical section */
-#balboa-park {
+.balboa-park {
     background-color: #3DA5D9;
     border: 1px solid #2364AA;
 }
 
-#old-town {
+.old-town {
     background-color: #73BFB8;
     border: 1px solid #3DA5D9;
 }
 
-#fairgrounds {
+.fairgrounds {
     background-color: #2364AA;
     border: 1px solid #73BFB8;
     color: #EEE;
+}
+
+/* Events section */
+#events ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-bottom: .83em;
+}
+
+#events h2 {
+    text-decoration: underline;
+}
+
+#events h3 {
+    margin: 0;
+    padding-bottom: .83em;
+    padding-top: .83em;
+}
+
+#events li {
+    padding: .5em;
+    font-size: 115%;
 }
 
 /* Footer section */
