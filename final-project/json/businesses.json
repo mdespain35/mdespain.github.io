@@ -1,17 +1,6 @@
 {
     "business": [
         {
-            "name": "Example Inc.",
-            "streetaddress": "123 Apple Ave",
-            "phone": "(858) 123-4567",
-            "logo": "image address here",
-            "city": "San Diego",
-            "state": "CA",
-            "zipcode": "92123",
-            "industry": "example",
-            "website": "Website URL here"
-        },
-        {
             "name": "Buckboard's Barbecue & Brew",
             "streetaddress": "975 Greenfield Dr.",
             "phone": "(619) 334-4400",
@@ -34,15 +23,59 @@
             "website": "https://www.theoldglobe.org/"
         },
         {
-            "name": "Example Inc.",
-            "streetaddress": "123 Apple Ave",
-            "phone": "(858) 123-4567",
-            "logo": "image address here",
+            "name": "Point Loma Sportfishing",
+            "streetaddress": "1403 Scott St.",
+            "phone": "(619) 223-1627",
+            "logo": "images/pl-sportfishing-logo.png",
             "city": "San Diego",
             "state": "CA",
-            "zipcode": "92123",
-            "industry": "example",
-            "website": "Website URL here"
+            "zipcode": "92106",
+            "industry": "Entertainment",
+            "website": "https://www.pointlomasportfishing.com/index.php"
+        },
+        {
+            "name": "ADU Geeks",
+            "streetaddress": "2828 University Ave.",
+            "phone": "(855) 999-4335",
+            "logo": "images/adugeekslogo.png",
+            "city": "San Diego",
+            "state": "CA",
+            "zipcode": "92104",
+            "industry": "Construction",
+            "website": "https://www.adugeeks.com/"
+        },
+        {
+            "name": "James Gang Company",
+            "streetaddress": "4851 Newport Ave.",
+            "phone": "(619) 225-1753",
+            "logo": "images/jamesganglogo.jpeg",
+            "city": "San Diego",
+            "state": "CA",
+            "zipcode": "92107",
+            "industry": "Printing",
+            "website": "https://jamesgangprinting.com/"
+        },
+        {
+            "name": "Beach Break Insurance Agency",
+            "streetaddress": "1455 Frazee Rd., #500",
+            "phone": "(619) 567-7227",
+            "logo": "images/beachbreaklogo.png",
+            "city": "San Diego",
+            "state": "CA",
+            "zipcode": "92108",
+            "industry": "Insurance",
+            "website": "https://beachbreakinsurance.com/"
+        },
+        {
+            "name": "Passion Fit, LLC",
+            "streetaddress": "P.O. Box 3305",
+            "phone": "(858) 224-2806",
+            "logo": "images/passionfitlogo.jpeg",
+            "city": "Rancho Santa Fe",
+            "state": "CA",
+            "zipcode": "92067",
+            "industry": "Fitness",
+            "website": "https://passionfit.com/"
         }
     ]
 }
