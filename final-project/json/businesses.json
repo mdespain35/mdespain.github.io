@@ -1,0 +1,48 @@
+{
+    "business": [
+        {
+            "name": "Example Inc.",
+            "streetaddress": "123 Apple Ave",
+            "phone": "(858) 123-4567",
+            "logo": "image address here",
+            "city": "San Diego",
+            "state": "CA",
+            "zipcode": "92123",
+            "industry": "example",
+            "website": "Website URL here"
+        },
+        {
+            "name": "Buckboard's Barbecue & Brew",
+            "streetaddress": "975 Greenfield Dr.",
+            "phone": "(619) 334-4400",
+            "logo": "images/buckboardslogo.jpeg",
+            "city": "El Cajon",
+            "state": "CA",
+            "zipcode": "92021",
+            "industry": "Food",
+            "website": "https://buckboardsbbq.com/"
+        },
+        {
+            "name": "The Old Globe",
+            "streetaddress": "1363 Old Globe Way",
+            "phone": "(619) 231-1941",
+            "logo": "images/theoldglobelogo.jpeg",
+            "city": "San Diego",
+            "state": "CA",
+            "zipcode": "92101",
+            "industry": "Entertainment",
+            "website": "https://www.theoldglobe.org/"
+        },
+        {
+            "name": "Example Inc.",
+            "streetaddress": "123 Apple Ave",
+            "phone": "(858) 123-4567",
+            "logo": "image address here",
+            "city": "San Diego",
+            "state": "CA",
+            "zipcode": "92123",
+            "industry": "example",
+            "website": "Website URL here"
+        }
+    ]
+}
