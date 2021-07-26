@@ -1,0 +1,54 @@
+@media only screen and (min-width: 32.5em) {
+    
+    /* Header/Navigation section */
+
+    #top-banner {
+        grid-template-columns: 230px 1fr;
+        grid-template-rows: 57.781px 172.219px;
+    }
+
+    #logo {
+        grid-column: 1;
+        grid-row: 1 / 3;
+    }
+
+    .navigation li {
+        display: inline;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav {
+        grid-column: 2;
+    }
+
+
+    /* Business section */
+
+    #businesses {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+
+    section img {
+        max-height: 10em;
+    }
+
+    /* Footer section */
+
+    footer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    footer img {
+        max-width: 75px;
+    }
+
+    #social {
+        grid-column: 3;
+    }
+}

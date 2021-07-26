@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu&display=swap');
+/* Header/Navigation section */
+#top-banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #EA7317;
+}
+
+#logo {
+    max-width: 100%;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    background-color: #EA7317; 
+    padding: 0;
+}
+
+.navigation li {
+    padding: 1em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 115%;
+}
+
+.navigation li:hover {
+    border: 1px solid #73BFB8;
+    box-shadow: 0 0 5px #2364AA;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    border-bottom: 3px solid #3DA5D9;
+}
+
+#filler {
+    display: none;
+}
+
+/* General Page section */
+
+main {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #FEC601;
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Directory secion */
+
+section img {
+    max-width: 100%;
+    background-color: white;
+}
+
+section {
+    border: 2px solid #73BFB8;
+}
+
+section p {
+    margin-bottom: 0;
+    padding-bottom: .83em;
+}
+
+section:nth-child(even) {
+    background-color: #2364AA;
+    color: #EEE;
+}
+
+section:nth-child(odd) {
+    background-color: #3DA5D9;
+}
+
+/* Footer section */
+
+footer img {
+    max-width: 50px;
+}
+
+footer {
+    background-color: #EA7317;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer div {
+    padding: .75em;
+}
+
+footer div p:nth-child(0) {
+    margin-top: 0;
+}
+
+#social {
+    grid-column: 1 / 3;
+    margin: 0 auto;
+}
+
+footer a {
+    text-align: center;
+    margin-top: 2.5em;
+}
